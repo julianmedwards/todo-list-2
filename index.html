@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <title>Todo List 2</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+  />
+  <meta name="viewport" content="width=device-width" initial-scale="1" />
+</head>
+<body>
+  <div class="wrapper">
+    <main>
+      <form id="form" action="javascript:void(0);" onsubmit="add()">
+        <input
+          type="text"
+          name="taskField"
+          placeholder="Your task here."
+          required
+          autofocus
+        />
+        <input type="submit" value="Add Task" />
+      </form>
+    </main>
+    <ol id="tasks"></ol>
+  </div>
+  <script src="scripts.js"></script>
+</body>
