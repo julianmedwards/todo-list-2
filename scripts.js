@@ -25,8 +25,6 @@ function add() {
     console.table(tasks)
 
     this.event.target.reset()
-
-    console.log(Array.isArray(tasks))
 }
 
 // Event listeners to change icon on mouseover and remove from
